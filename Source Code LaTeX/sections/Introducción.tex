@@ -1,0 +1,81 @@
+\chapter{Introducción}\label{cap:introduccion}
+
+Actualmente la cantidad de información que circula por Internet y nuestros dispositivos es asombrosamente alta, lo que provoca que tengamos excesiva información disponible y, en muchos casos, crea más problemas que soluciones.
+
+Para poder asimilar y usar toda la información que tenemos a nuestro alcance es recomendable que la información sea almacenada siguiendo ciertos criterios y asignándole un orden que facilite su uso y visibilidad.
+
+Cuando se juega a juegos de mesa también se maneja mucha información en la que se puede aplicar el mismo procedimiento. Crear un sistema que nos permita almacenar información y procesarla de tal manera que el usuario final pueda visualizarla con la mayor eficiencia posible.
+
+En este caso, la información más básica e importante que se maneja y se quiere almacenar para posterior uso son los nombres, puntuaciones y posiciones de los jugadores en cada partida. Eso es respecto a las partidas jugadas por los usuarios, pero también se gestionarán los juegos de mesa recientes que uses y habrá herramientas para facilitar el transcurso de estas partidas.
+
+Estas herramientas que se facilitan al usuario son 4 distintas.
+
+En primer lugar, “el lanzamiento de dado” que nos permitirá lanzar distintos tipos de dado y la cantidad que nos convenga para la situación.
+
+En segundo lugar, “la arena de cartas” donde podremos ir contando sin tener que memorizar las diferentes estadísticas de los jugadores mientras transcurre el juego.
+
+En tercer lugar, “el cronometro” con lo que podremos cronometrar el tiempo transcurrido sin tener que usar otra aplicación externa.
+
+En cuarto y último lugar, “el contador de puntos”, una utilidad que puede llevar a la confusión porque no es la herramienta que nos hace guardar las estadísticas finales de la partida, si no que nos sirve para contar los puntos que vayamos obteniendo durante la partida en sus distintas rondas.
+
+\newpage
+
+\section{Justificación}
+
+
+A estas alturas, la mayoría de las personas que frecuentan un entorno universitario tienen conocimientos básicos de informática y esto permite que los antiguos sistemas de almacenamiento de información de papel y lápiz sean mejorados e informatizados para obtener una mejora del tiempo empleado, tanto para el almacenamiento como para el posterior uso de la información almacenada.
+
+Este proyecto surge a partir de la experiencia propia jugando a juegos de mesa. Llega a ser muy tedioso el hecho de llevar papeles, lápices y los distintos tipos de dados que vayan a ser necesarios para los juegos que se vayan a jugar. La idea es crear una aplicación en la que se introduzcan las puntuaciones y queden registradas, se introduzcan estas puntuaciones simplemente para contar los puntos que se van consiguiendo sin tener que recurrir al papel y lápiz, o tener la posibilidad de lanzar varios dados de distintos tipos sin tenerlos físicamente.
+
+Con respecto a las metodologías y tecnologías escogidas, se ha optado por crear una aplicación Android en Java mediante Android Studio haciendo uso de Google Firebase como base de datos. Entre las razones de esta elección destaca la necesidad del uso de la aplicación en cualquier sitio, es decir, portable. La metodología que más se adapta a este proyecto es SCRUM, dada la necesidad de estar en constante contacto con la parte interesada, en este caso mis amigos y yo, y el conocimiento técnico requerido para implementar las funciones pedidas.
+
+Por último, y en cuanto a la justificación personal, elegí este proyecto para desarrollar un producto final que fuese usado diariamente por usuarios y obtener conocimientos en el desarrollo de aplicaciones Android, un campo que, a mi parecer, siempre estará en alza debido a la gran cantidad de aplicaciones que se pueden crear y la gran cantidad de necesidades que un usuario pueda requerir. 
+
+\newpage
+
+\section{Objetivos}
+
+Este proyecto tiene como objetivo la implementación de un sistema informático que haga uso de una base de datos para la gestión de estadísticas sobre los resultados de partidas en juegos, así como permitir a los usuarios tener a su disponibilidad múltiples herramientas facilitando las partidas jugadas. Este objetivo general se puede dividir en los siguientes subobjetivos:
+
+\begin{itemize}
+    \item Desarrollar una aplicación móvil para guardar estadísticas de partidas en juegos
+    \item Almacenar, de forma diferenciada, los diferentes resultados de partidas que se realizan. En este caso, las estadísticas de cada jugador en dicha partida.
+    \item Compartir las estadísticas de los usuarios entre distintos dispositivos.
+    \item Facilitar el transporte de herramientas físicas y el tiempo empleado haciendo uso de estas herramientas a los usuarios.
+    \item Crear una aplicación usable sin conexión para las utilidades y con conexión para el almacenamiento de resultados en la base de datos.
+\end{itemize}
+
+\newpage
+
+\section{Análisis de lo existente}
+
+Hasta la implantación de la aplicación, el sistema utilizado eran hojas de papel ya sean independientes o encuadernadas que podían estar en diferentes localizaciones.
+
+Además de tratarse de una metodología anticuada, cada nueva partida requería más hojas de papel o herramienta para escribir ya sea lápiz, bolígrafo o rotulador, por lo que también supone un pequeño coste monetario y sacrificio para el medio ambiente cuando todo puede quedar almacenado en un dispositivo móvil cuando, actualmente, la gran mayoría posee uno. 
+
+Para todos aquellos que se toman los juegos de mesa de una forma más profesional o seria, puede resultar frustrante buscar entre papeles resultados de las partidas o, simplemente, no tener almacenada esa información.
+
+Aunque hay aplicaciones comerciales y de software libre de gestión de información de partidas en juegos de mesa, con esta aplicación no solamente se busca el almacenamiento de dicha información, sino que el usuario también pueda hacer uso de la aplicación para facilitar el transcurso de la partida mediante simples clics en la pantalla de su dispositivo móvil.
+
+La aplicación que se desarrollará permitirá automatizar este proceso mejorando significativamente la fiabilidad y permitiendo acelerar el desarrollo de estudios y de registro de los datos.
+
+\newpage
+
+\section{Propuesta detallada}
+
+\subsection{Introducción}\label{sec:Propuesta detallada}
+
+Este proyecto tiene como objetivo la implementación de un sistema informático que haga uso de una base de datos para la gestión de estadísticas sobre los resultados de partidas en juegos de, así como permitir a los usuarios tener a su disponibilidad múltiples herramientas facilitando las partidas jugadas.
+
+\subsection{Tecnologías propuestas}
+
+
+Se propone el uso de las siguientes tecnologías para el desarrollo de la aplicación:
+
+\begin{itemize}
+    \item Google Firebase como gestor de base de datos.
+    \item Java como lenguaje de programación.
+    \item Android para el diseño de la GUI.
+\end{itemize}
+
+\newpage

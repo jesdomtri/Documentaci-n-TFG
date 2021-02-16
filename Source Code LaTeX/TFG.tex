@@ -1,0 +1,66 @@
+\documentclass[12pt]{report}
+
+\setlength {\marginparwidth }{2cm} 
+
+\usepackage{float}
+\usepackage[table]{xcolor}
+\usepackage{tabulary}
+\usepackage{graphicx}
+\usepackage{afterpage}
+
+% Definición de colores
+\definecolor{mygray}{RGB}{240, 240, 240}
+
+% Creación de página en blanco
+\newcommand\blankpage{%
+    \null
+    \thispagestyle{empty}%
+    \addtocounter{page}{-1}%
+    \newpage}
+
+% Paquetes LaTeX y estilos globales
+\input{etc/pkgs}
+\input{etc/style}
+
+% Comienzo del documento
+\begin{document}
+
+    % Portada y secciones no numeradas
+    \input{sections/portada}
+    \afterpage{\blankpage}
+    \input{sections/agradecimientos}
+    \input{sections/resumen}
+    \input{sections/abstract}
+    
+    % Índice del documento y de figuras
+    \begingroup
+        % Los enlaces son normalmente azules, pero en los índices se configuran a negro
+        % para que no aparezca todo azul
+        \hypersetup{linkcolor=black}
+        \afterpage{\blankpage}
+        \tableofcontents
+        \afterpage{\blankpage}
+        \listoffigures
+        \afterpage{\blankpage}
+        %\lstlistoflistings
+    \endgroup
+    
+    % Cambia el estilo de números de página a normal
+    \clearpage\pagenumbering{arabic}
+    
+    % Capítulos del trabajo
+    %\input{sections/ejemplos_borrame}
+    \input{sections/Introducción}
+    \input{sections/Elicitación_sistema}
+    \input{sections/Diseño}
+    \input{sections/Implementacion}
+    \input{sections/Documento_pruebas}
+    \input{sections/Plan_pruebas}
+    \input{sections/Planificación}
+    \input{sections/Conclusiones}
+    \input{sections/Trabajo futuro}
+    \input{sections/Bibliografía}
+    \input{sections/Anexo}
+
+% Fin del documento
+\end{document}

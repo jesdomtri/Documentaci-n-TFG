@@ -1,0 +1,365 @@
+\chapter{Plan de pruebas}\label{cap:plan pruebas}
+
+A continuación, presentaré los resultados de las pruebas realizadas en los formatos especificados en el apartado anterior.
+
+\section{Pruebas de código}
+
+\begin{center}
+    \rowcolors{1}{mygray}{white}
+    \begin{tabulary}{0.8\textwidth}{L|L}
+        \textbf{Apartado} & \textbf{Resultado} \\ \hline
+        Funcionalidad que revisar & Inicio de conexión con Authentication \\
+        Implementado por & FirebaseAuth \\
+        Prueba que realizar & Permitir la conexión con Authentication \\
+        Resultado válido & Permite la conexión con Authentication \\
+        Resultado obtenido & Permite la conexión con Authentication \\
+        Prueba satisfactoria & Sí \\
+    \end{tabulary} 
+\end{center}
+
+\bigskip
+
+\begin{center}
+    \rowcolors{1}{mygray}{white}
+    \begin{tabulary}{0.8\textwidth}{L|L}
+        \textbf{Apartado} & \textbf{Resultado} \\ \hline
+        Funcionalidad que revisar & Conexión con la instancia especificada de Authentication \\
+        Implementado por & FirebaseAuth\_getInstance \\
+        Prueba que realizar & Se conecta con la instancia especificada de Authentication \\
+        Resultado válido & Instancia específica de Authentication conectada \\
+        Resultado obtenido & Instancia específica de Authentication conectada \\
+        Prueba satisfactoria & Sí \\
+    \end{tabulary} 
+\end{center}
+
+\bigskip
+
+\begin{center}
+    \rowcolors{1}{mygray}{white}
+    \begin{tabulary}{0.8\textwidth}{L|L}
+        \textbf{Apartado} & \textbf{Resultado} \\ \hline
+        Funcionalidad que revisar & Inicio de conexión con Realtime Database \\
+        Implementado por & FirebaseDatabase \\
+        Prueba que realizar & Permitir la conexión con Realtime Database \\
+        Resultado válido & Permite la conexión con Realtime Database \\
+        Resultado obtenido & Permite la conexión con Realtime Database \\
+        Prueba satisfactoria & Sí \\
+    \end{tabulary} 
+\end{center}
+
+\bigskip
+
+\begin{center}
+    \rowcolors{1}{mygray}{white}
+    \begin{tabulary}{0.8\textwidth}{L|L}
+        \textbf{Apartado} & \textbf{Resultado} \\ \hline
+        Funcionalidad que revisar & Conexión con la instancia especificada de Realtime Database \\
+        Implementado por & FirebaseDatabase\_getInstance \\
+        Prueba que realizar & Se conecta con la instancia especificada de Realtime Database \\
+        Resultado válido & Instancia específica de Realtime Database conectada \\
+        Resultado obtenido & Instancia específica de Realtime Database conectada \\
+        Prueba satisfactoria & Sí \\
+    \end{tabulary} 
+\end{center}
+
+\bigskip
+
+\begin{center}
+    \rowcolors{1}{mygray}{white}
+    \begin{tabulary}{0.8\textwidth}{L|L}
+        \textbf{Apartado} & \textbf{Resultado} \\ \hline
+        Funcionalidad que revisar & Inicio de conexión con las referencias en Realtime Database \\
+        Implementado por & DatabaseReference \\
+        Prueba que realizar & Permitir la conexión con las referencias en Realtime Database \\
+        Resultado válido & Permite la conexión con las referencias en Realtime Database \\
+        Resultado obtenido & Permite la conexión con las referencias en Realtime Database \\
+        Prueba satisfactoria & Sí \\
+    \end{tabulary} 
+\end{center}
+
+\bigskip
+
+\begin{center}
+    \rowcolors{1}{mygray}{white}
+    \begin{tabulary}{0.8\textwidth}{L|L}
+        \textbf{Apartado} & \textbf{Resultado} \\ \hline
+        Funcionalidad que revisar & Conexión con la Referencia especificada de Realtime Database \\
+        Implementado por & DatabaseReference\_getReference \\
+        Prueba que realizar & Se conecta con la instancia especificada de Realtime Database \\
+        Resultado válido & Referencia específica de Realtime Database conectada \\
+        Resultado obtenido & Referencia específica de Realtime Database conectada \\
+        Prueba satisfactoria & Sí \\
+    \end{tabulary} 
+\end{center}
+
+\bigskip
+
+\begin{center}
+    \rowcolors{1}{mygray}{white}
+    \begin{tabulary}{0.8\textwidth}{L|L}
+        \textbf{Apartado} & \textbf{Resultado} \\ \hline
+        Funcionalidad que revisar & Mantener conectado al usuario aún cerrando la aplicación \\
+        Implementado por & SharedPreferences \\
+        Prueba que realizar & Mantener iniciada la sesión \\
+        Resultado válido & Inicio de sesión mantenido aunque se cierre la aplicación \\
+        Resultado obtenido & Inicio de sesión mantenido aunque se cierre la aplicación \\
+        Prueba satisfactoria & Sí \\
+    \end{tabulary}
+\end{center}
+
+\bigskip
+
+\begin{center}
+    \rowcolors{1}{mygray}{white}
+    \begin{tabulary}{0.8\textwidth}{L|L}
+        \textbf{Apartado} & \textbf{Resultado} \\ \hline
+        Funcionalidad que revisar & Edición de las preferencias del SharedPreferences \\
+        Implementado por & SharedPreferences\_Editor \\
+        Prueba que realizar & Editar las preferencias del SharedPreferences para guardar o no la sesión actual \\
+        Resultado válido & Preferencias del SharedPreferences editadas \\
+        Resultado obtenido & Preferencias del SharedPreferences editadas \\
+        Prueba satisfactoria & Sí \\
+    \end{tabulary}
+\end{center}
+
+\bigskip
+
+\begin{center}
+    \rowcolors{1}{mygray}{white}
+    \begin{tabulary}{0.8\textwidth}{L|L}
+        \textbf{Apartado} & \textbf{Resultado} \\ \hline
+        Funcionalidad que revisar & Modificación de características de las ventanas \\
+        Implementado por & requestWindowFeature \\
+        Prueba que realizar & Modificar las características de las ventanas \\
+        Resultado válido & Características de las ventanas modificada \\
+        Resultado obtenido & Características de las ventanas modificada \\
+        Prueba satisfactoria & Sí \\
+    \end{tabulary}
+\end{center}
+
+\bigskip
+
+\begin{center}
+    \rowcolors{1}{mygray}{white}
+    \begin{tabulary}{0.8\textwidth}{L|L}
+        \textbf{Apartado} & \textbf{Resultado} \\ \hline
+        Funcionalidad que revisar & Configuración de la barra de la aplicación \\
+        Implementado por & getSupportActionBar \\
+        Prueba que realizar & Configurar la barra de la aplicación \\
+        Resultado válido & Barra de la aplicación configurada \\
+        Resultado obtenido & Barra de la aplicación configurada \\
+        Prueba satisfactoria & Sí \\
+    \end{tabulary}
+\end{center}
+
+\bigskip
+
+\begin{center}
+    \rowcolors{1}{mygray}{white}
+    \begin{tabulary}{0.8\textwidth}{L|L}
+        \textbf{Apartado} & \textbf{Resultado} \\ \hline
+        Funcionalidad que revisar & Asignación de vistas a las actividades Java \\
+        Implementado por & setContentView \\
+        Prueba que realizar & Asignar las vistas a las actividades Java \\
+        Resultado válido & Vistas a las actividades Java asignadas \\
+        Resultado obtenido & Vistas a las actividades Java asignadas \\
+        Prueba satisfactoria & Sí \\
+    \end{tabulary}
+\end{center}
+
+\bigskip
+
+\begin{center}
+    \rowcolors{1}{mygray}{white}
+    \begin{tabulary}{0.8\textwidth}{L|L}
+        \textbf{Apartado} & \textbf{Resultado} \\ \hline
+        Funcionalidad que revisar & Creación de una \textit{intención} para iniciar otra actividad \\
+        Implementado por & Intent \\
+        Prueba que realizar & Crear una \textit{intención} para iniciar otra actividad \\
+        Resultado válido & \textit{Intención} para iniciar otra actividad creada \\
+        Resultado obtenido & \textit{Intención} para iniciar otra actividad creada \\
+        Prueba satisfactoria & Sí \\
+    \end{tabulary}
+\end{center}
+
+\bigskip
+
+\begin{center}
+    \rowcolors{1}{mygray}{white}
+    \begin{tabulary}{0.8\textwidth}{L|L}
+        \textbf{Apartado} & \textbf{Resultado} \\ \hline
+        Funcionalidad que revisar & Adición de claves nuevas en la \textit{intención} que inicia una actividad \\
+        Implementado por & Intent\_putExtra \\
+        Prueba que realizar & Añadir claves nuevas en la \textit{intención} que inicia una actividad \\
+        Resultado válido & Claves nuevas en la \textit{intención} que inicia una actividad añadidas \\
+        Resultado obtenido & Claves nuevas en la \textit{intención} que inicia una actividad añadidas \\
+        Prueba satisfactoria & Sí \\
+    \end{tabulary}
+\end{center}
+
+\bigskip
+
+\begin{center}
+    \rowcolors{1}{mygray}{white}
+    \begin{tabulary}{0.8\textwidth}{L|L}
+        \textbf{Apartado} & \textbf{Resultado} \\ \hline
+        Funcionalidad que revisar & Devolución de la \textit{intención} que inicia una actividad \\
+        Implementado por & getIntent \\
+        Prueba que realizar & Devolver la \textit{intención} que inicia una actividad \\
+        Resultado válido & \textit{Intención} que inicia una actividad devuelta \\
+        Resultado obtenido & \textit{Intención} que inicia una actividad devuelta \\
+        Prueba satisfactoria & Sí \\
+    \end{tabulary}
+\end{center}
+
+\bigskip
+
+\begin{center}
+    \rowcolors{1}{mygray}{white}
+    \begin{tabulary}{0.8\textwidth}{L|L}
+        \textbf{Apartado} & \textbf{Resultado} \\ \hline
+        Funcionalidad que revisar & Obtención de claves en la \textit{intención} que inicia la actividad actual \\
+        Implementado por & getIntent\_getStringExtra \\
+        Prueba que realizar & Obtener claves de la \textit{intención} que inicia la actividad actual \\
+        Resultado válido & Claves de la \textit{intención} que inicia la actividad actual obtenidas \\
+        Resultado obtenido & Claves de la \textit{intención} que inicia la actividad actual obtenidas \\
+        Prueba satisfactoria & Sí \\
+    \end{tabulary}
+\end{center}
+
+\bigskip
+
+\begin{center}
+    \rowcolors{1}{mygray}{white}
+    \begin{tabulary}{0.8\textwidth}{L|L}
+        \textbf{Apartado} & \textbf{Resultado} \\ \hline
+        Funcionalidad que revisar & Búsqueda de una vista por su identificador \\
+        Implementado por & findViewById \\
+        Prueba que realizar & Buscar una vista por su identificador \\
+        Resultado válido & Vista encontrada por su identificador \\
+        Resultado obtenido & Vista encontrada por su identificador \\
+        Prueba satisfactoria & Sí \\
+    \end{tabulary}
+\end{center}
+
+\bigskip
+
+\begin{center}
+    \rowcolors{1}{mygray}{white}
+    \begin{tabulary}{0.8\textwidth}{L|L}
+        \textbf{Apartado} & \textbf{Resultado} \\ \hline
+        Funcionalidad que revisar & Realización de tareas si se ejecuta la anterior exitosamente \\
+        Implementado por & addOnSuccessListener \\
+        Prueba que realizar & Realizar tareas si se ejecuta la anterior exitosamente \\
+        Resultado válido & Tareas realizadas si la anterior fue exitosa \\
+        Resultado obtenido & Tareas realizadas si la anterior fue exitosa \\
+        Prueba satisfactoria & Sí \\
+    \end{tabulary}
+\end{center}
+
+\bigskip
+
+\begin{center}
+    \rowcolors{1}{mygray}{white}
+    \begin{tabulary}{0.8\textwidth}{L|L}
+        \textbf{Apartado} & \textbf{Resultado} \\ \hline
+        Funcionalidad que revisar & Realización de tareas si se completó la anterior \\
+        Implementado por & addOnCompleteListener \\
+        Prueba que realizar & Realizar tareas si se completó la anterior \\
+        Resultado válido & Tareas realizadas si la anterior fue completada \\
+        Resultado obtenido & Tareas realizadas si la anterior fue completada \\
+        Prueba satisfactoria & Sí \\
+    \end{tabulary}
+\end{center}
+
+\bigskip
+
+\begin{center}
+    \rowcolors{1}{mygray}{white}
+    \begin{tabulary}{0.8\textwidth}{L|L}
+        \textbf{Apartado} & \textbf{Resultado} \\ \hline
+        Funcionalidad que revisar & Realización de tareas si ha habido cambios \\
+        Implementado por & setOnCheckedChangeListener \\
+        Prueba que realizar & Realizar tareas si ha habido cambios \\
+        Resultado válido & Tareas realizadas si ha habido cambios \\
+        Resultado obtenido & Tareas realizadas si ha habido cambios \\
+        Prueba satisfactoria & Sí \\
+    \end{tabulary}
+\end{center}
+
+\bigskip
+
+\begin{center}
+    \rowcolors{1}{mygray}{white}
+    \begin{tabulary}{0.8\textwidth}{L|L}
+        \textbf{Apartado} & \textbf{Resultado} \\ \hline
+        Funcionalidad que revisar & Realización de tareas si el objeto ha sido clicado \\
+        Implementado por & setOnClickListener \\
+        Prueba que realizar & Realizar tareas si el objeto ha sido clicado \\
+        Resultado válido & Tareas realizadas si el objeto ha sido clicado \\
+        Resultado obtenido & Tareas realizadas si el objeto ha sido clicado \\
+        Prueba satisfactoria & Sí \\
+    \end{tabulary}
+\end{center}
+
+\bigskip
+
+\begin{center}
+    \rowcolors{1}{mygray}{white}
+    \begin{tabulary}{0.8\textwidth}{L|L}
+        \textbf{Apartado} & \textbf{Resultado} \\ \hline
+        Funcionalidad que revisar & Realización de tareas si se escribe alguna consulta \\
+        Implementado por & setOnQueryTextListener \\
+        Prueba que realizar & Realizar tareas si se escribe alguna consulta \\
+        Resultado válido & Tareas realizadas si se escribe alguna consulta \\
+        Resultado obtenido & Tareas realizadas si se escribe alguna consulta \\
+        Prueba satisfactoria & Sí \\
+    \end{tabulary}
+\end{center}
+
+\bigskip
+
+\begin{center}
+    \rowcolors{1}{mygray}{white}
+    \begin{tabulary}{0.8\textwidth}{L|L}
+        \textbf{Apartado} & \textbf{Resultado} \\ \hline
+        Funcionalidad que revisar & Creación de una barra de navegación \\
+        Implementado por & BottomNavigationView \\
+        Prueba que realizar & Crear una barra de navegación \\
+        Resultado válido & Barra de navegación creada \\
+        Resultado obtenido & Barra de navegación creada \\
+        Prueba satisfactoria & Sí \\
+    \end{tabulary}
+\end{center}
+
+\bigskip
+
+\begin{center}
+    \rowcolors{1}{mygray}{white}
+    \begin{tabulary}{0.8\textwidth}{L|L}
+        \textbf{Apartado} & \textbf{Resultado} \\ \hline
+        Funcionalidad que revisar & Cambio de vista clicando sobre la barra de navegación \\
+        Implementado por & BottomNavigationView\_OnNavigationItemSelectedListener \\
+        Prueba que realizar & Cambiar de vista clicando sobre la barra de navegación \\
+        Resultado válido & Vista cambiada clicando sobre la barra de navegación \\
+        Resultado obtenido & Vista cambiada clicando sobre la barra de navegación \\
+        Prueba satisfactoria & Sí \\
+    \end{tabulary}
+\end{center}
+
+\bigskip
+
+\begin{center}
+    \rowcolors{1}{mygray}{white}
+    \begin{tabulary}{0.8\textwidth}{L|L}
+        \textbf{Apartado} & \textbf{Resultado} \\ \hline
+        Funcionalidad que revisar & Mostración de mensajes hacia el usuario \\
+        Implementado por & Toast \\
+        Prueba que realizar & Mostrar mensajes hacia el usuario \\
+        Resultado válido & Mensajes hacia el usuario mostrados \\
+        Resultado obtenido & Mensajes hacia el usuario mostrados \\
+        Prueba satisfactoria & Sí \\
+    \end{tabulary}
+\end{center}
+
+\newpage
